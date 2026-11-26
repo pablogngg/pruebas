@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tablas</title>
+	<style>
+		th{
+			color:black;
+			background-color:lightgrey;
+		}
+		td{
+			text-align: center;
+		}
+		.Sistemas{
+			background-color: skyblue;
+		}
+		.Redes{
+			background-color: darkred;
+		}
+		.Aplicaciones{
+			background-color: beige;
+		}
+	</style>
+</head>
+<body>
+	<!-- Tabla de 4x3 -->
+	<table border="2" style="width:50%;">
+		<caption style="color:black;background-color:lightgrey;">HORARIO</caption>
+		<tr>
+			<th>Horas</th>
+			<th>Lunes</th>
+			<th>Martes</th>
+			<th>Miércoles</th>
+			<th>Jueves</th>
+			<th>Viernes</th>
+		</tr>
+		<tr>
+			<th>8:30h/9:30h</th>
+			<td rowspan="2" class="Sistemas">Sistemas</td>
+			<td rowspan="2" class="Aplicaciones">Aplicaciones</td>
+			<td rowspan="2" class="Redes">Redes</td>
+			<td class="Sistemas">Sistemas</td>
+			<td>Inglés</td>
+		</tr>
+		<tr>
+			<th>9:30h/10:30h</th>
+			
+			
+			
+			<td>Seguridad</td>
+			<td>Ipe</td>
+		</tr>
+		<tr>
+			<th>10:30h/11:30h</th>
+			<td class="Redes">Redes</td>
+			<td>Seguridad</td>
+			<td>Proyecto</td>
+			<td class="Aplicaciones">Aplicaciones</td>
+			<td class="Redes">Redes</td>
+		</tr>
+		<tr>
+			<th>11:30h/12:00h</th>
+			<th colspan="5">RECREO</th>
+		</tr>
+		<tr>
+			<th>12:00h/13:00h</th>
+			<td class="Redes">Redes</td>
+			<td>Ipe</td>
+			<td>Proyecto</td>
+			<td class="Aplicaciones">Aplicaciones</td>
+			<td class="Redes">Redes</td>
+		</tr>
+		<tr>
+			<th>13:00h/14:00h</th>
+			<td>Seguridad</td>
+			<td rowspan="2" class="Sistemas">Sistemas</td>
+			<td>Ipe</td>
+			<td rowspan="2">Programación</td>
+			<td class="Sistemas">Sistemas</td>
+		</tr>
+		<tr>
+			<th>14:00h/15:00h</th>
+			<td>Inglés</td>
+			
+			<td>Programación</td>
+			
+			<td>Seguridad</td>
+		</tr>
+	</table>
+</body>
+</html>
