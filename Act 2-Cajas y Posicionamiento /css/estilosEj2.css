@@ -1,0 +1,170 @@
+/* Configuración básica de la página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+/* --- ESTRUCTURA EN DOS COLUMNAS --- */
+/* Si agrupas los elementos en divs contenedor para izquierda y derecha */
+.columna-izquierda {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.columna-derecha {
+    width: 48%;
+    float: left;
+}
+
+/* --- CAJA 1 (Línea 11 de tu HTML) --- */
+.caja1 {
+    background-color: #ffebad;
+    border: 8px solid #f39c12;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* --- CAJA 2 (Línea 17 de tu HTML) --- */
+.caja2 {
+    background-color: #fff8d6;
+    border: 2px dashed #d4ac0d;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Etiqueta dentro de la Caja 2 */
+.caja2 div, .caja2 code {
+    background-color: #e8f4f8;
+    border: 1px solid #3498db;
+    color: #2980b9;
+    padding: 4px 8px;
+    font-family: monospace;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* --- ESTILOS DE LA COLUMNA DERECHA --- */
+
+/* Lista con viñeta superior */
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Caja estilo ventana azul (derecha) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+/* --- MAQUETACIÓN EN DOS COLUMNAS --- */
+.columna-izq {
+    width: 47%;
+    float: left;
+    margin-right: 5%;
+}
+
+.columna-der {
+    width: 47%;
+    float: left;
+}
+
+/* --- COLUMNA IZQUIERDA --- */
+
+/* Caja 1 (Naranja con borde y fondo amarillo/naranja) */
+.caja-naranja {
+    background-color: #ffebad;
+    border: 7px solid #f39c12;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.caja-naranja p {
+    margin: 8px 0;
+}
+
+/* Caja 2 (Amarilla redondeada con borde discontinuo) */
+.caja-amarilla {
+    background-color: #fff9db;
+    border: 2px dashed #f1c40f;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.caja-amarilla p {
+    margin: 8px 0;
+}
+
+/* Etiqueta dentro de la caja amarilla */
+.codigo-box {
+    border: 1px solid #7f8c8d;
+    background-color: #ffffff;
+    padding: 4px 8px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+/* --- COLUMNA DERECHA --- */
+
+/* Lista superior con viñeta de punto */
+.lista-superior {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Ventana estilo aplicación azul */
+.ventana-azul {
+    border: 2px solid #2980b9;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.barra-titulo {
+    background-color: #3498db;
+    color: white;
+    text-align: right;
+    padding: 3px 10px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.contenido-ventana {
+    background-color: #ebf5fb;
+    padding: 12px;
+    border-top: 1px solid #2980b9;
+}
+
+/* Texto y lista del medio */
+.texto-lista p {
+    margin-bottom: 8px;
+}
+
+.texto-lista ul {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.texto-lista li {
+    margin-bottom: 4px;
+}
+
+/* Caja inferior con borde decorativo */
+.caja-borde-imagen {
+    border: 4px double #333333;
+    padding: 12px;
+    background-color: #fcfcfc;
+}

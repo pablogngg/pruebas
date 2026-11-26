@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<title>Páginas web HTML y hojas de estilo CSS-Cajas bordes</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Ejercicio de Bartolomé Sintes Marco. www.mclibre.org">
+  	<link rel="stylesheet" href="css/estilosEj2.css" title="Color">
+</head>
+<body>
+<!-- COLUMNA IZQUIERDA -->
+    <div class="columna-izq">
+
+        <!-- Caja 1: Naranja -->
+        <div class="caja-naranja">
+            <p><strong>El modelo de Cajas:</strong> es uno de los elementos básicos de CSS y por lo tanto su correcta interpretación resulta fundamental a la hora de lograr los resultados deseados en un diseño, por más simple que éste resulte.</p>
+            <p><strong>Margin:</strong> Todo elemento tiene cuatro lados: derecho, izquierdo, superior e inferior. La propiedad margin hace referencia a la distancia desde cada lado respecto al elemento colindante, o respecto a los bordes del documento.</p>
+        </div>
+
+        <!-- Caja 2: Amarilla redondeada -->
+        <div class="caja-amarilla">
+            <p><strong>Bordes con esquinas redondeadas:</strong> En este apartado vamos a explicar cómo realizar bordes redondeados con CSS3. Tenemos la propiedad <code>border-radius</code>, que permite definir bordes redondeados en las esquinas, especificando las medidas del radio que deben darse a la curva de las esquinas.</p>
+            <p>El atributo <code>box-shadow</code> se emplea para crear sombra a los elementos. Este requiere varios valores para especificar las características de la sombra, como difuminado, separación de la sombra y la propia caja o color. La sintaxis es:</p>
+            <div class="codigo-box">box-shadow: &lt;horizontal&gt; &lt;vertical&gt; &lt;difuminado&gt; &lt;color&gt;;</div>
+        </div>
+
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="columna-der">
+
+        <!-- Texto superior derecha con viñeta -->
+        <ul class="lista-superior">
+            <li>Las imágenes de bordes permiten utilizar imágenes en los bordes de los elementos. Las imágenes de bordes se introdujeron en CSS 3 y permiten ir más allá de los estilos clásicos de bordes.</li>
+        </ul>
+
+        <!-- Caja Ventana Azul -->
+        <div class="ventana-azul">
+            <div class="barra-titulo">─ 🗖 ✕</div>
+            <div class="contenido-ventana">
+                Las imágenes de bordes permiten utilizar imágenes en los bordes de los elementos. Las imágenes de bordes se introdujeron en CSS 3 y permiten ir más allá de los estilos clásicos de bordes.
+            </div>
+        </div>
+
+        <!-- Texto explicativo con lista -->
+        <div class="texto-lista">
+            <p>Cada uno de los ocho trozos (descartando el trozo central) se utiliza en cada una de las ocho zonas correspondientes del borde. Como en otras propiedades en las que se pueden escribir de uno a cuatro valores:</p>
+            <ul>
+                <li>Si sólo se escribe un valor, este se aplica a los cuatro lados</li>
+                <li>Si se escriben dos valores, el primero se aplica arriba y abajo y el segundo a derecha e izquierda</li>
+                <li>Si se escriben tres valores, el primero se aplica arriba, el segundo a derecha e izquierda y el tercero abajo</li>
+                <li>Si se escriben cuatro valores, el primero se aplica arriba, el segundo a la derecha, el tercero abajo y el cuarto a la izquierda</li>
+                <li>- fill: este valor hace que la parte central de la imagen se utilice para rellenar el elemento.</li>
+            </ul>
+        </div>
+
+        <!-- Caja inferior con borde especial -->
+        <div class="caja-borde-imagen">
+            <p><strong>border-image-repeat:</strong> Permite indicar si se desea que se repita la imagen del borde haciendo un mosaico (valor repeat), que se estire (valor stretch) o que se redondee (valor round).</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
